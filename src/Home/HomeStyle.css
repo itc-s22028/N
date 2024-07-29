@@ -1,0 +1,41 @@
+/* src/NavBar.css */
+.HomeTop {
+    display: flex;
+    height: 100vh; /* 画面の高さを占める */
+}
+
+.HomeTitleContainer, .SearchContainer {
+    flex: 1; /* 等分に分割 */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.SideBar {
+    width: 300px;
+    border-right: black 1px solid;
+}
+
+
+.N_Logo {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px; /* ロゴの下にスペースを追加 */
+}
+
+h1 {
+    margin: 10px 0;
+}
+
+.HomeCenter {
+    width: 900px;
+    border-right: black 1px solid;
+}
+.HomeTitle {
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    font-size: 50px;
+    border-bottom: black solid 1px;
+}
